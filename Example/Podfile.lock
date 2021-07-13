@@ -1,0 +1,16 @@
+PODS:
+  - ZTLogManager (0.1.0)
+
+DEPENDENCIES:
+  - ZTLogManager (from `../`)
+
+EXTERNAL SOURCES:
+  ZTLogManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZTLogManager: dcd24eb8bfb4aa535b5da02579ada63dee7a88f5
+
+PODFILE CHECKSUM: fb96382d52d7c221c9ea01751bdd3aee0f2e6bef
+
+COCOAPODS: 1.10.1

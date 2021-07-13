@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21ABC8D64E27406EC1D17911198DBE39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2448889F8BD87FF9E8E70DFA82BA156B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		28814F2F9956E1C4F3F78445013E247C /* ZTLogManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7932B6AD43A62368440ADDBB674484B0 /* ZTLogManager-dummy.m */; };
+		298906E7F442EEE256D07C8F1A4647B4 /* Pods-ZTLogManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3D801717EF06F373DD31059A291945 /* Pods-ZTLogManager_Tests-dummy.m */; };
+		393C8E35ADD4A5505FD19727B7B68991 /* Pods-ZTLogManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9267BA2B2AEFD52CA7EF768023CBF6E /* Pods-ZTLogManager_Example-dummy.m */; };
+		41F190631FCF21A37E4F3677E07E7EA7 /* ZTLogManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 530533E9A0F871F4591D119DB9D9D065 /* ZTLogManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F37A10F30ACC8E4179595A5DDCE3F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		66D88CD173FE6685C4ED0DC6FD2B239A /* Pods-ZTLogManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90AF756BFE1B8D86674669F3C1B837A5 /* Pods-ZTLogManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C00A83DF8F0D40642469557B7B9565BD /* Pods-ZTLogManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E3D437627ED8AE63711EC48508DDB73 /* Pods-ZTLogManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E17638A02695481500C0EFD8 /* ZTLogManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E176389F2695481500C0EFD8 /* ZTLogManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2386D991E5C344F0260683FEF01D01EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D12AA7A545AAED4BC6A4CDCCD37E019;
+			remoteInfo = ZTLogManager;
+		};
+		ECC5C3F21EE4A92BD6D8731A17932B08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA39980C72B2A1FBF4B407FF378F3691;
+			remoteInfo = "Pods-ZTLogManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0449A51DD0702876A728AF9BE68C2D98 /* Pods-ZTLogManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTLogManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		06237A2BA5A39FC68FCC52C64B4C7FBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0EFB3A8DA7F91A14DCD4CC4BA2BD9836 /* Pods-ZTLogManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTLogManager_Example.modulemap"; sourceTree = "<group>"; };
+		161E2FE2AEC665D00AEB785C37D48617 /* ZTLogManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZTLogManager.debug.xcconfig; sourceTree = "<group>"; };
+		4B76636898EF6A44769767157323E210 /* Pods_ZTLogManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTLogManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		530533E9A0F871F4591D119DB9D9D065 /* ZTLogManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTLogManager-umbrella.h"; sourceTree = "<group>"; };
+		5825F32ADD95CACC692BB0906CD554E7 /* ZTLogManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZTLogManager-Info.plist"; sourceTree = "<group>"; };
+		6E3D437627ED8AE63711EC48508DDB73 /* Pods-ZTLogManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTLogManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7932B6AD43A62368440ADDBB674484B0 /* ZTLogManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZTLogManager-dummy.m"; sourceTree = "<group>"; };
+		8BAA7E5DD98BAC2EE52F5989C1CB4CF8 /* ZTLogManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZTLogManager.modulemap; sourceTree = "<group>"; };
+		8C1A2372DB471711A9416BC7D593B9A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		90AF756BFE1B8D86674669F3C1B837A5 /* Pods-ZTLogManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTLogManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A933133D3D0C3F947FC898C6C5813D07 /* Pods-ZTLogManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTLogManager_Example-Info.plist"; sourceTree = "<group>"; };
+		AA2C2282427242F02DBE3737727A050C /* Pods_ZTLogManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTLogManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4AE339F2CF9F40D8CFDC6138020E5D0 /* Pods-ZTLogManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTLogManager_Tests.modulemap"; sourceTree = "<group>"; };
+		BD0DCC0843F3A4F5E714F382E6DB2764 /* ZTLogManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZTLogManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C370D4E6F9387B57626375DAF9D0AF8D /* Pods-ZTLogManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTLogManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6E71A3BBD4F355EAE4DC003B3EB3599 /* ZTLogManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZTLogManager.release.xcconfig; sourceTree = "<group>"; };
+		C9267BA2B2AEFD52CA7EF768023CBF6E /* Pods-ZTLogManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTLogManager_Example-dummy.m"; sourceTree = "<group>"; };
+		CA491296751B12107E7190DD1F6D7B3E /* Pods-ZTLogManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTLogManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D16F6359351B9E6533ECA84E95AA380F /* Pods-ZTLogManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZTLogManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D437A67BABF2D7B36E7BDFAFA9FC283D /* ZTLogManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZTLogManager.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		D8ECE16F3004649D014438BA664C3280 /* Pods-ZTLogManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTLogManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		DB3D801717EF06F373DD31059A291945 /* Pods-ZTLogManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTLogManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		DFD1942D452AEA47201F84A5650FE263 /* Pods-ZTLogManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTLogManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E176389F2695481500C0EFD8 /* ZTLogManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZTLogManager.framework; path = ZTLogManager/ZTLogManager.framework; sourceTree = "<group>"; };
+		E71DD88A1768FD2B1B2EA68C9A34173A /* ZTLogManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTLogManager-prefix.pch"; sourceTree = "<group>"; };
+		F02008ECD6644C9C129D604EF9A581EA /* Pods-ZTLogManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZTLogManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA3120FBEC57FF4FA7AB5FC4A24CFFD4 /* Pods-ZTLogManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTLogManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF437C11370B55897556588F01F70386 /* Pods-ZTLogManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTLogManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FFA957677D3EB5A690A768DD5C188FB5 /* Pods-ZTLogManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZTLogManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AEE9F739A6A2BB6EADA70AE507061E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F37A10F30ACC8E4179595A5DDCE3F79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6096E8659BD2CB85513796B9B9C56635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2448889F8BD87FF9E8E70DFA82BA156B /* Foundation.framework in Frameworks */,
+				E17638A02695481500C0EFD8 /* ZTLogManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88504CFFD727215CF9BB9DDDED509E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21ABC8D64E27406EC1D17911198DBE39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018587C33C67F5BFEAEA0640923EF79A /* Pods-ZTLogManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE339F2CF9F40D8CFDC6138020E5D0 /* Pods-ZTLogManager_Tests.modulemap */,
+				D16F6359351B9E6533ECA84E95AA380F /* Pods-ZTLogManager_Tests-acknowledgements.markdown */,
+				FA3120FBEC57FF4FA7AB5FC4A24CFFD4 /* Pods-ZTLogManager_Tests-acknowledgements.plist */,
+				DB3D801717EF06F373DD31059A291945 /* Pods-ZTLogManager_Tests-dummy.m */,
+				D8ECE16F3004649D014438BA664C3280 /* Pods-ZTLogManager_Tests-Info.plist */,
+				6E3D437627ED8AE63711EC48508DDB73 /* Pods-ZTLogManager_Tests-umbrella.h */,
+				C370D4E6F9387B57626375DAF9D0AF8D /* Pods-ZTLogManager_Tests.debug.xcconfig */,
+				CA491296751B12107E7190DD1F6D7B3E /* Pods-ZTLogManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZTLogManager_Tests";
+			path = "Target Support Files/Pods-ZTLogManager_Tests";
+			sourceTree = "<group>";
+		};
+		2E540ED797C4FA056ADEBD9AD8B94682 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ED13200EF06206CF51568366DC3DF3E /* ZTLogManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7ED13200EF06206CF51568366DC3DF3E /* ZTLogManager */ = {
+			isa = PBXGroup;
+			children = (
+				E176389F2695481500C0EFD8 /* ZTLogManager.framework */,
+				EE6380BE2539BC177580B52DA05144F2 /* Pod */,
+				F62667E99B3F59F22A243D5D0DA538A5 /* Support Files */,
+			);
+			name = ZTLogManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8026A24B152647C2F3769ABA458F2E2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2C2282427242F02DBE3737727A050C /* Pods_ZTLogManager_Example.framework */,
+				4B76636898EF6A44769767157323E210 /* Pods_ZTLogManager_Tests.framework */,
+				BD0DCC0843F3A4F5E714F382E6DB2764 /* ZTLogManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DA47E97B20E36AF27D828A6D0255341 /* Pods-ZTLogManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0EFB3A8DA7F91A14DCD4CC4BA2BD9836 /* Pods-ZTLogManager_Example.modulemap */,
+				F02008ECD6644C9C129D604EF9A581EA /* Pods-ZTLogManager_Example-acknowledgements.markdown */,
+				0449A51DD0702876A728AF9BE68C2D98 /* Pods-ZTLogManager_Example-acknowledgements.plist */,
+				C9267BA2B2AEFD52CA7EF768023CBF6E /* Pods-ZTLogManager_Example-dummy.m */,
+				FFA957677D3EB5A690A768DD5C188FB5 /* Pods-ZTLogManager_Example-frameworks.sh */,
+				A933133D3D0C3F947FC898C6C5813D07 /* Pods-ZTLogManager_Example-Info.plist */,
+				90AF756BFE1B8D86674669F3C1B837A5 /* Pods-ZTLogManager_Example-umbrella.h */,
+				DFD1942D452AEA47201F84A5650FE263 /* Pods-ZTLogManager_Example.debug.xcconfig */,
+				FF437C11370B55897556588F01F70386 /* Pods-ZTLogManager_Example.release.xcconfig */,
+			);
+			name = "Pods-ZTLogManager_Example";
+			path = "Target Support Files/Pods-ZTLogManager_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2E540ED797C4FA056ADEBD9AD8B94682 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8026A24B152647C2F3769ABA458F2E2D /* Products */,
+				E207137B9651B3457BA0CE8A2DCBD039 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E207137B9651B3457BA0CE8A2DCBD039 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DA47E97B20E36AF27D828A6D0255341 /* Pods-ZTLogManager_Example */,
+				018587C33C67F5BFEAEA0640923EF79A /* Pods-ZTLogManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EE6380BE2539BC177580B52DA05144F2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8C1A2372DB471711A9416BC7D593B9A2 /* LICENSE */,
+				06237A2BA5A39FC68FCC52C64B4C7FBA /* README.md */,
+				D437A67BABF2D7B36E7BDFAFA9FC283D /* ZTLogManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F62667E99B3F59F22A243D5D0DA538A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BAA7E5DD98BAC2EE52F5989C1CB4CF8 /* ZTLogManager.modulemap */,
+				7932B6AD43A62368440ADDBB674484B0 /* ZTLogManager-dummy.m */,
+				5825F32ADD95CACC692BB0906CD554E7 /* ZTLogManager-Info.plist */,
+				E71DD88A1768FD2B1B2EA68C9A34173A /* ZTLogManager-prefix.pch */,
+				530533E9A0F871F4591D119DB9D9D065 /* ZTLogManager-umbrella.h */,
+				161E2FE2AEC665D00AEB785C37D48617 /* ZTLogManager.debug.xcconfig */,
+				C6E71A3BBD4F355EAE4DC003B3EB3599 /* ZTLogManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZTLogManager";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DEBD166D3AE6157AD6BD12D22C0CBC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D88CD173FE6685C4ED0DC6FD2B239A /* Pods-ZTLogManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD6364748E98C56AB339D327E921768 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00A83DF8F0D40642469557B7B9565BD /* Pods-ZTLogManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7AC436C54501C1D0E61F79AAD480F7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F190631FCF21A37E4F3677E07E7EA7 /* ZTLogManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D12AA7A545AAED4BC6A4CDCCD37E019 /* ZTLogManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416C8F6F52B269F79EEEDAA66688B8E4 /* Build configuration list for PBXNativeTarget "ZTLogManager" */;
+			buildPhases = (
+				B7AC436C54501C1D0E61F79AAD480F7F /* Headers */,
+				4F4896ED86C466FEA834639B0F447A1A /* Sources */,
+				3AEE9F739A6A2BB6EADA70AE507061E8 /* Frameworks */,
+				A810C9D8DCFE330D65BDBE4AFBEB6D3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTLogManager;
+			productName = ZTLogManager;
+			productReference = BD0DCC0843F3A4F5E714F382E6DB2764 /* ZTLogManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA39980C72B2A1FBF4B407FF378F3691 /* Pods-ZTLogManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E557B2C844620541B0828CB42E557B /* Build configuration list for PBXNativeTarget "Pods-ZTLogManager_Example" */;
+			buildPhases = (
+				2DEBD166D3AE6157AD6BD12D22C0CBC2 /* Headers */,
+				B1F36A0ABC46813270D27A91B3A92DA6 /* Sources */,
+				6096E8659BD2CB85513796B9B9C56635 /* Frameworks */,
+				6375E8CF14F83698AEACB29D422FC5F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD664C856FBD4A1E5F35285C2FBCCFA /* PBXTargetDependency */,
+			);
+			name = "Pods-ZTLogManager_Example";
+			productName = "Pods-ZTLogManager_Example";
+			productReference = AA2C2282427242F02DBE3737727A050C /* Pods_ZTLogManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA8889E51FB195F5BC3E9437F2227B37 /* Pods-ZTLogManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89066EF932C8D35A3406AE77B61423C9 /* Build configuration list for PBXNativeTarget "Pods-ZTLogManager_Tests" */;
+			buildPhases = (
+				3FD6364748E98C56AB339D327E921768 /* Headers */,
+				E8C8F65A4385EAB5C191B86F9A84B968 /* Sources */,
+				88504CFFD727215CF9BB9DDDED509E71 /* Frameworks */,
+				1C99647C3013B06080B5165BE59FB43F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				566373832C56F196658149967496DCBD /* PBXTargetDependency */,
+			);
+			name = "Pods-ZTLogManager_Tests";
+			productName = "Pods-ZTLogManager_Tests";
+			productReference = 4B76636898EF6A44769767157323E210 /* Pods_ZTLogManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8026A24B152647C2F3769ABA458F2E2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA39980C72B2A1FBF4B407FF378F3691 /* Pods-ZTLogManager_Example */,
+				FA8889E51FB195F5BC3E9437F2227B37 /* Pods-ZTLogManager_Tests */,
+				7D12AA7A545AAED4BC6A4CDCCD37E019 /* ZTLogManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C99647C3013B06080B5165BE59FB43F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6375E8CF14F83698AEACB29D422FC5F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A810C9D8DCFE330D65BDBE4AFBEB6D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F4896ED86C466FEA834639B0F447A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28814F2F9956E1C4F3F78445013E247C /* ZTLogManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F36A0ABC46813270D27A91B3A92DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393C8E35ADD4A5505FD19727B7B68991 /* Pods-ZTLogManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C8F65A4385EAB5C191B86F9A84B968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298906E7F442EEE256D07C8F1A4647B4 /* Pods-ZTLogManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		566373832C56F196658149967496DCBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZTLogManager_Example";
+			target = EA39980C72B2A1FBF4B407FF378F3691 /* Pods-ZTLogManager_Example */;
+			targetProxy = ECC5C3F21EE4A92BD6D8731A17932B08 /* PBXContainerItemProxy */;
+		};
+		EFD664C856FBD4A1E5F35285C2FBCCFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZTLogManager;
+			target = 7D12AA7A545AAED4BC6A4CDCCD37E019 /* ZTLogManager */;
+			targetProxy = 2386D991E5C344F0260683FEF01D01EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		457A1B5257F15F37E03CF43380F22A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF437C11370B55897556588F01F70386 /* Pods-ZTLogManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZTLogManager_Example/Pods-ZTLogManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZTLogManager_Example/Pods-ZTLogManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47A151248DA5D3371C9F15EE9E1BFB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD1942D452AEA47201F84A5650FE263 /* Pods-ZTLogManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZTLogManager_Example/Pods-ZTLogManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZTLogManager_Example/Pods-ZTLogManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7511F4C30855141CEB415D6E9B86E1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E71A3BBD4F355EAE4DC003B3EB3599 /* ZTLogManager.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZTLogManager/ZTLogManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZTLogManager/ZTLogManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZTLogManager/ZTLogManager.modulemap";
+				PRODUCT_MODULE_NAME = ZTLogManager;
+				PRODUCT_NAME = ZTLogManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C16CF69856CD09C47FECAB72393AEB04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA491296751B12107E7190DD1F6D7B3E /* Pods-ZTLogManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZTLogManager_Tests/Pods-ZTLogManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZTLogManager_Tests/Pods-ZTLogManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D142832A6618805F7299993A3EC8C636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C370D4E6F9387B57626375DAF9D0AF8D /* Pods-ZTLogManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZTLogManager_Tests/Pods-ZTLogManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZTLogManager_Tests/Pods-ZTLogManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E54C47BE538BF35AE7688963BFE516E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 161E2FE2AEC665D00AEB785C37D48617 /* ZTLogManager.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZTLogManager/ZTLogManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZTLogManager/ZTLogManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZTLogManager/ZTLogManager.modulemap";
+				PRODUCT_MODULE_NAME = ZTLogManager;
+				PRODUCT_NAME = ZTLogManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416C8F6F52B269F79EEEDAA66688B8E4 /* Build configuration list for PBXNativeTarget "ZTLogManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54C47BE538BF35AE7688963BFE516E8 /* Debug */,
+				7511F4C30855141CEB415D6E9B86E1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89066EF932C8D35A3406AE77B61423C9 /* Build configuration list for PBXNativeTarget "Pods-ZTLogManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D142832A6618805F7299993A3EC8C636 /* Debug */,
+				C16CF69856CD09C47FECAB72393AEB04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E557B2C844620541B0828CB42E557B /* Build configuration list for PBXNativeTarget "Pods-ZTLogManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A151248DA5D3371C9F15EE9E1BFB08 /* Debug */,
+				457A1B5257F15F37E03CF43380F22A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

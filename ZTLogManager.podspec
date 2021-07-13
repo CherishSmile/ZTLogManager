@@ -8,30 +8,21 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTLogManager'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZTLogManager.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/zwl/ZTLogManager'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.version          = '1.0.3'
+  s.summary          = 'ZTLogManager can display log information within the app'
+  s.homepage         = 'https://github.com/CherishSmile/ZTLogManager'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zwl' => 'misteralvin@yeah.net' }
-  s.source           = { :git => 'https://github.com/zwl/ZTLogManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'CherishSmile' => 'misteralvin@yeah.net' }
+  s.source           = { :git => 'https://github.com/CherishSmile/ZTLogManager.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '10.0'
+  s.requires_arc = true
 
-  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ZTLogManager/Classes/**/*'
-  
+  s.source_files = 'ZTLogManager/ZTLogManager.framework/Headers/*.{h}'
+  s.vendored_frameworks = 'ZTLogManager/ZTLogManager.framework'
+  s.public_header_files = 'ZTLogManager/ZTLogManager.framework/Headers/*.{h}'
+  s.resource = 'ZTLogManager/ZTLogManager.framework/Resource.bundle'
+
   # s.resource_bundles = {
   #   'ZTLogManager' => ['ZTLogManager/Assets/*.png']
   # }

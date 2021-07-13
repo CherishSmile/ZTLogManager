@@ -1,0 +1,6 @@
+framework module Pods_ZTLogManager_Example {
+  umbrella header "Pods-ZTLogManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ZTLogManager {
+  umbrella header "ZTLogManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

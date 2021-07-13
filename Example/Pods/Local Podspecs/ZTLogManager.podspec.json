@@ -1,0 +1,22 @@
+{
+  "name": "ZTLogManager",
+  "version": "0.1.0",
+  "summary": "A short description of ZTLogManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zwl/ZTLogManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zwl": "misteralvin@yeah.net"
+  },
+  "source": {
+    "git": "https://github.com/zwl/ZTLogManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZTLogManager/Classes/**/*"
+}
