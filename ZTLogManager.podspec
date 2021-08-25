@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTLogManager'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'ZTLogManager can display log information within the app'
   s.homepage         = 'https://github.com/CherishSmile/ZTLogManager'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
