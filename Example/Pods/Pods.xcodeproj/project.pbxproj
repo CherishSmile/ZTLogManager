@@ -16,6 +16,7 @@
 		4F37A10F30ACC8E4179595A5DDCE3F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		66D88CD173FE6685C4ED0DC6FD2B239A /* Pods-ZTLogManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90AF756BFE1B8D86674669F3C1B837A5 /* Pods-ZTLogManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C00A83DF8F0D40642469557B7B9565BD /* Pods-ZTLogManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E3D437627ED8AE63711EC48508DDB73 /* Pods-ZTLogManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E12A9A5726D5D9D500BE97AD /* ZTLogManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E12A9A5626D5D9D500BE97AD /* ZTLogManager.bundle */; };
 		E17638A02695481500C0EFD8 /* ZTLogManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E176389F2695481500C0EFD8 /* ZTLogManager.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		D8ECE16F3004649D014438BA664C3280 /* Pods-ZTLogManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTLogManager_Tests-Info.plist"; sourceTree = "<group>"; };
 		DB3D801717EF06F373DD31059A291945 /* Pods-ZTLogManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTLogManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		DFD1942D452AEA47201F84A5650FE263 /* Pods-ZTLogManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTLogManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E12A9A5626D5D9D500BE97AD /* ZTLogManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZTLogManager.bundle; path = ZTLogManager/ZTLogManager.bundle; sourceTree = "<group>"; };
 		E176389F2695481500C0EFD8 /* ZTLogManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZTLogManager.framework; path = ZTLogManager/ZTLogManager.framework; sourceTree = "<group>"; };
 		E71DD88A1768FD2B1B2EA68C9A34173A /* ZTLogManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTLogManager-prefix.pch"; sourceTree = "<group>"; };
 		F02008ECD6644C9C129D604EF9A581EA /* Pods-ZTLogManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZTLogManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		7ED13200EF06206CF51568366DC3DF3E /* ZTLogManager */ = {
 			isa = PBXGroup;
 			children = (
+				E12A9A5626D5D9D500BE97AD /* ZTLogManager.bundle */,
 				E176389F2695481500C0EFD8 /* ZTLogManager.framework */,
 				EE6380BE2539BC177580B52DA05144F2 /* Pod */,
 				F62667E99B3F59F22A243D5D0DA538A5 /* Support Files */,
@@ -358,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12A9A5726D5D9D500BE97AD /* ZTLogManager.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

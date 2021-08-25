@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ZTLogViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class ZTLogViewController;
 @interface ZTLogController : UIViewController
 
 @property(nonatomic, strong) UIViewController * mainViewController;

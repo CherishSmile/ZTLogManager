@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTLogManager'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'ZTLogManager can display log information within the app'
   s.homepage         = 'https://github.com/CherishSmile/ZTLogManager'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -20,14 +20,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ZTLogManager/ZTLogManager.framework/Headers/*.{h}'
   s.vendored_frameworks = 'ZTLogManager/ZTLogManager.framework'
-  s.public_header_files = 'ZTLogManager/ZTLogManager.framework/Headers/*.{h}'
-  s.resource = 'ZTLogManager/ZTLogManager.framework/Resource.bundle'
+  s.resource = 'ZTLogManager/ZTLogManager.bundle'
 
-  # s.resource_bundles = {
-  #   'ZTLogManager' => ['ZTLogManager/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

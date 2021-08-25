@@ -9,6 +9,22 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+//! Project version number for ZTAlertViewController.
+FOUNDATION_EXPORT double ZTAlertViewControllerVersionNumber;
+
+//! Project version string for ZTAlertViewController.
+FOUNDATION_EXPORT const unsigned char ZTAlertViewControllerVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <ZTLogManager/PublicHeader.h>
+
+
+#import <ZTLogManager/ZTLogController.h>
+#import <ZTLogManager/ZTLogViewController.h>
+#import <ZTLogManager/UIView+Attach.h>
+#import <ZTLogManager/ZTCircleMenu.h>
+#import <ZTLogManager/ZTMoreMenuView.h>
+#import <ZTLogManager/ZTLogSearchBar.h>
+
 typedef NS_ENUM(NSInteger, ZTLogType) {
     ZTLogTypeSysReminder, // 系统提示
     ZTLogTypeCommonLog // 普通日志
