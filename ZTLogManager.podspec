@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTLogManager'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'ZTLogManager can display log information within the app'
   s.homepage         = 'https://github.com/CherishSmile/ZTLogManager'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -16,7 +16,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/CherishSmile/ZTLogManager.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.requires_arc = true
-
+  s.pod_target_xcconfig = {
+    'VALID_ARCHS' => 'x86_64 armv7 arm64'
+  }
 
   s.source_files = 'ZTLogManager/ZTLogManager.framework/Headers/*.{h}'
   s.vendored_frameworks = 'ZTLogManager/ZTLogManager.framework'
